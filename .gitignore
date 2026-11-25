@@ -1,0 +1,49 @@
+# Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Project-specific venv subdirectories
+# (Source files reside inside vrenv/, so ignore only the environment artifacts)
+vrenv/Lib/
+vrenv/Scripts/
+vrenv/Include/
+vrenv/share/
+vrenv/pyvenv.cfg
+
+# Distribution & Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & IDE configs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Secrets & Local Configurations
+.env
+.env.local
+.env.*.local
